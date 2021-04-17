@@ -1,0 +1,100 @@
+body {
+  font-family: 'Source Code Pro', monospace;
+  color: black;
+  background: #FFFFFF;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 1.5;
+  }
+h1 {font-size:30px;
+    text-align: left;
+    line-height: 0.2;
+    font-family: 'Source Code Pro', monospace;
+    letter-spacing: .25em;
+   }
+h2 {font-size: 24px;
+    text-align: left;
+    line-height: 0.5;
+    font-family: 'Source Code Pro', monospace;
+   }
+
+#navigation li {
+  display: inline;
+  list-style-type: none;
+  padding: 4px 16px;
+  border-top: 3px;
+  border-bottom: 3px;
+  margin: 0;
+}
+#navigation a{
+  font-family: monospace;
+  color: black;
+  text-decoration: none;
+  padding: 4px 16px;
+  text-align: right;
+}
+#navigation a:hover,
+  #home #navi01 a,
+  #about #navi02 a,
+  #cameraroll #navi03 a,
+  #closet #navi04 a {
+  background-color: #E3ECE2;
+  }
+
+  .grid2x2 {
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .grid2x2 > div {
+    display: flex;
+    flex-basis: calc(50% - 40px);
+    justify-content: center;
+    flex-direction: column;
+  }
+  .grid2x2 > div > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .box { margin: 20px; }
+  .box1 { background-color: #EAF1EB; }
+  .box2 { background-color: white; }
+  .box3 { background-color: #EAF1EB; }
+  .box4 { background-color: #EAF1EB;}
+
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+  .container {
+    background: white;
+
+  }
+
+  .item {
+    background: #F1ECE5;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .container {
+    background: white;
+  }
+
+  .items {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: #E8DED7;
+  }
